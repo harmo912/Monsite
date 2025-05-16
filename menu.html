@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Harmo912 - Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+   /* "*" veut dire toute la page en général */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #001f3f;
+      padding: 20px;
+    }
+
+    .sidebar h2 {
+      text-align: center;
+      color: #0072ff;
+      margin-bottom: 20px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+    }
+
+    .sidebar ul li {
+      margin: 15px 0;
+    }
+
+    .sidebar ul li a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+      border-radius: 8px;
+      background-color: #003366;
+      text-align: center;
+      transition: background 0.3s;
+    }
+
+    .sidebar ul li a:hover {
+      background-color: #0072ff;
+    }
+
+    .content {
+      flex: 1;
+      padding: 40px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .button-container {
+      text-align: center;
+    }
+
+    .button-container a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #0072ff;
+      border-radius: 25px;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    .button-container a:hover {
+      background: #0055cc;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <nav class="sidebar">
+    <!--Voici mon menu avec toutes les pages au choix-->
+    <h2>Menu</h2>
+   <div class="button-container">
+   <a href="page1.html" target="fen">Page 1</a>
+   <a href="page2.html" target="fen">Page 2</a>
+   <a href="CV.html" target="fen">Mon CV</a>
+   <a href="tableaux.html" target="fen">Tableau</a>
+   <a href="formulaire1.html" target="fen">Formulaire 1</a>
+   <a href="formulaire2.html" target="fen">Formulaire 2</a>
+   
+   </div>
+  </nav>
+
+  <main class="content">
+    <header>
+      <h1>Bienvenue sur mon site</h1>
+    </header>
+
+    <section class="intro">
+      <h2>Let's Go !</h2>
+      <p>Découvre les pages, les projets, et toute la magie tech.</p>
+    </section>
+
+    
+
+    <!--Le bas (le pied) de mon site. -->
+    <footer>
+      <p>© 2025 Harmo912. Tous droits réservés.</p>
+    </footer>
+  </main>
+</body>
+</html>
