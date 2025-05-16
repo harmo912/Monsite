@@ -13,12 +13,22 @@
     }
 
     body {
-      font-family: Arial, sans-serif;
-      background-color: black;
-      color: white;
-      display: flex;
-      min-height: 100vh;
-    }
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  min-height: 100vh;
+}
+
+main.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+main.content > section.intro {
+  flex: 1;
+}
 
     .sidebar {
       width: 200px;
